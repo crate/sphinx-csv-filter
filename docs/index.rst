@@ -9,5 +9,5 @@ details for "Ernst Handel", with *no* table header.
 .. csv-filter:: Example Table
    :delim: U+0009
    :file: example.csv
-   :exclude: {3: '(?i)Y\w*'}
+   :exclude: {3: r'(?i)Y\w*'}
    :included_cols: 0,1,2

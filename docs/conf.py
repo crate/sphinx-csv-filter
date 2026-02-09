@@ -1,7 +1,7 @@
-project = "sphinx"
+project = "sphinx-csv-filter-testbed"
 
 # The suffix of source filenames.
-source_suffix = '.txt'
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
