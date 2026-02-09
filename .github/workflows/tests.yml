@@ -35,6 +35,10 @@ jobs:
         ]
       fail-fast: true
 
+    env:
+      OS: ${{ matrix.os }}
+      PYTHON: ${{ matrix.python-version }}
+
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python ${{ matrix.python-version }}
@@ -53,9 +57,11 @@ jobs:
       - name: Build documentation
         run: python -m sphinx --fail-on-warning --builder html docs out
 
-      - name: Store Coverage Data
-        uses: actions/upload-artifact@v4.3.6
+      # https://github.com/codecov/codecov-action
+      - name: Upload coverage results to Codecov
+        uses: codecov/codecov-action@v5
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         with:
-          name: coverage-data-${{ matrix.python-version }}
-          path: "coverage.xml"
-          if-no-files-found: ignore
+          env_vars: OS,PYTHON
+          fail_ci_if_error: true
