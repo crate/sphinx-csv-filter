@@ -69,8 +69,8 @@ testing = [
 ]
 
 [project.urls]
-Homepage = 'https://github.com/crate/sphinx_csv_filter'
-Issues = 'https://github.com/crate/sphinx_csv_filter/issues'
+Homepage = 'https://github.com/crate/sphinx-csv-filter'
+Issues = 'https://github.com/crate/sphinx-csv-filter/issues'
 
 # Flake8 doesn't believe in pyproject.toml. For now, configuration is in tox.ini
 # [tool.flake8]
