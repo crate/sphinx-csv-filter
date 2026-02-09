@@ -49,7 +49,10 @@ classifiers = [
     "Topic :: Text Processing :: Markup :: reStructuredText",
 ]
 dependencies = [
-    "Sphinx",
+    # The plugin is currently incompatible with newer versions of docutils.
+    # https://github.com/crate/sphinx-csv-filter/issues/52
+    "docutils<0.21",
+    "sphinx",
 ]
 
 [project.optional-dependencies]
