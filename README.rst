@@ -2,12 +2,12 @@
 Sphinx CSV filter
 =================
 
-.. image:: https://github.com/crate/sphinx_csv_filter/actions/workflows/tests.yml/badge.svg
-    :target: https://github.com/crate/sphinx_csv_filter/actions/workflows/tests.yml
+.. image:: https://github.com/crate/sphinx-csv-filter/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/crate/sphinx-csv-filter/actions/workflows/tests.yml
     :alt: CI outcome
 
-.. image:: https://codecov.io/gh/crate/sphinx_csv_filter/branch/main/graph/badge.svg
-    :target: https://app.codecov.io/gh/crate/sphinx_csv_filter
+.. image:: https://codecov.io/gh/crate/sphinx-csv-filter/branch/main/graph/badge.svg
+    :target: https://app.codecov.io/gh/crate/sphinx-csv-filter
     :alt: Test suite code coverage
 
 .. image:: https://img.shields.io/pypi/v/sphinx-csv-filter.svg
