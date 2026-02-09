@@ -1,0 +1,31 @@
+B011	Embedded Ada			NO		
+B012	Embedded C			NO		
+B013	Embedded COBOL			NO		
+B014	Embedded Fortran			NO		
+B015	Embedded MUMPS			NO		
+B016	Embedded Pascal			NO		
+B017	Embedded PL/I			NO		
+B021	Direct SQL			NO
+B031	Basic dynamic SQL			NO
+B032	Extended dynamic SQL			NO
+B032	Extended dynamic SQL	1	<describe input statement>	NO
+B033	Untyped SQL-invoked function arguments			NO
+B034	Dynamic specification of cursor attributes			NO
+B035	Non-extended descriptor names			NO
+B041	Extensions to embedded SQL exception declarations			NO
+B051	Enhanced execution rights			NO
+B111	Module language Ada			NO
+B112	Module language C			NO
+B113	Module language COBOL			NO
+B114	Module language Fortran			NO
+B115	Module language MUMPS			NO
+B116	Module language Pascal			NO
+B117	Module language PL/I			NO
+B121	Routine language Ada			NO
+B122	Routine language C			NO
+B123	Routine language COBOL			NO
+B124	Routine language Fortran			NO
+B125	Routine language MUMPS			NO
+B126	Routine language Pascal			NO
+B127	Routine language PL/I			NO
+B128	Routine language SQL			NO

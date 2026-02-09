@@ -11,3 +11,7 @@ details for "Ernst Handel", with *no* table header.
    :file: example.csv
    :exclude: {3: r'(?i)Y\w*'}
    :included_cols: 0,1,2
+
+.. toctree::
+
+    sql_features
