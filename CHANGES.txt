@@ -4,6 +4,8 @@ CHANGES
 
 Unreleased
 ==========
+- Dependencies: Downgraded to docutils 0.20.
+  The plugin is currently incompatible with newer versions of docutils.
 
 2024/08/21 0.4.2
 ================
