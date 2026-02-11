@@ -47,7 +47,7 @@ then
 fi
 
 # check if tag to create has already been created
-VERSION=$(python setup.py --version)
+VERSION=$(python -c 'import importlib.metadata; print(importlib.metadata.version("sphinx-csv-filter"))')
 EXISTS=$(git tag | grep "$VERSION")
 
 if [ "$VERSION" == "$EXISTS" ]
