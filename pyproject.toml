@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sphinx-csv-filter"
-version = "0.4.2"
+version = "0.4.3"
 description='A CSV filter directive for docutils and Sphinx, that extends the "csv-table" reStructuredText directive to add row filtering options.'
 readme = "README.rst"
 requires-python = ">=3.9"

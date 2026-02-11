@@ -5,6 +5,10 @@ CHANGES
 Unreleased
 ==========
 
+
+2026/02/11 0.4.3
+================
+
 - Limit runtime dependency to docutils 0.20, because the plugin
   is not compatible with more recent versions yet.
 
