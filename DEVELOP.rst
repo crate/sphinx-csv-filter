@@ -53,7 +53,7 @@ PyPI Deployment
 
 To install the development dependencies run the following command::
 
-    $ pip install -e .[development]
+    $ pip install -e '.[development]'
 
 To create the package use::
 
